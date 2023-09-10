@@ -1,0 +1,24 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+/* Hide the embedded code initially */
+#embedded-code {
+    display: none;
+}
+
+/* Style the icon container */
+.icon-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the icon image */
+.icon-container img {
+    width: 100px; /* Customize the icon size */
+    cursor: pointer;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Chatbot.css">
+
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="icon-container">
+            <img src="https://freesvg.org/img/1538298822.png" id="show-embedded-code">
+        
+    </div>
+
+    <div id="embedded-code">
+        <!-- Your embedded code goes here -->
+        <pre>
+            <code>
+                <iframe src='https://webchat.botframework.com/embed/ChatbotJabal-bot?s=qrXJvC7ZM9s.r6pPUeq0bRiBLw7hEbgU-E55IzwNmS-9yiVZIj03xnA'  style='min-width: 400px; width: 30%; min-height: 500px;'></iframe>
+            </code>
+        </pre>
+    </div>
+
+    <script>
+        // JavaScript to toggle the embedded code visibility
+        document.getElementById('show-embedded-code').addEventListener('click', function () {
+            var embeddedCode = document.getElementById('embedded-code');
+            if (embeddedCode.style.display === 'none' || embeddedCode.style.display === '') {
+                embeddedCode.style.display = 'block';
+            } else {
+                embeddedCode.style.display = 'none';
+            }
+        });
+    </script>
+
+    <!--<iframe src='https://webchat.botframework.com/embed/ChatbotJabal-bot?s=qrXJvC7ZM9s.r6pPUeq0bRiBLw7hEbgU-E55IzwNmS-9yiVZIj03xnA'  style='min-width: 400px; width: 30%; min-height: 500px;'></iframe>-->
+</body>
+</html>
